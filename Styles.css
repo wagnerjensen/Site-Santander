@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left {
+    padding: 40px;
+    display: inline-block;
+}
+
+.right {
+    display: inline-block;
+}
+
+.logo {
+    width: 220px;
+}
+
+.voce {
+    color: #ff0000;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.voce:hover {
+    text-decoration: underline;
+}
+
+.empresa {
+    color: #000000;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.empresa:hover {
+    text-decoration: underline;
+}
+
+.pesquisa {
+    border: none;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.dados {
+    font-size: 20px;
+   }
+
+.um {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.dois {
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.juridica {
+    color: #ff0000;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.juridica:hover {
+    text-decoration: none;
+}
+
+.CPF {    
+    background-color: #D3D3D3;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #c70c0ce7;
+    color: aliceblue;
+    padding: 30px;
+
+}
+
+.itens {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.itens:hover {
+    text-decoration: underline;
+}
+
+
+.background {
+    width: 100%;
+}
+
+h2 {
+    margin-left: 200px;
+    margin-top: 33px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.icons {
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.img-produtos {
+    width: 60px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+.icons:hover {
+    width: 155px;
+    height: 155px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
